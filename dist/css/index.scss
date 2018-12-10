@@ -1,0 +1,922 @@
+@import "reset.scss";
+body,html{
+    height: 100%;
+    width: 100%;
+    #topbrand{
+        display: block;
+        width: 100%;
+        height: 100px;
+        background: url(https://img02.hua.com/banner/18_logoupdate_banner_top.png) 50% 0 no-repeat
+    }
+    /***顶部导航栏***/ 
+    .top-nav{
+        width: 100%;
+        height: 35px;
+        background: #f2f2f2;
+        border-bottom: 1px solid #e6e6e6; 
+        .container{
+            width: 1200px;
+            height: 35px;
+            margin: 0 auto;
+            .left{
+                float: left;
+                li{
+                    float: left;
+                    line-height: 35px;
+                    position: relative;
+                    z-index: 5;
+                    a{
+                        display: block;
+                        height: 35px;
+                        font-size:12px; 
+                        padding: 0 8px;
+                        color: #737373;
+                        .ico{
+                            display: inline-block;
+                            margin-bottom: -8px;
+                            width: 24px;
+                            height: 24px;
+                            background: url(https://img02.hua.com/pc/assets/img/common_z.png)
+                        }
+                        .ico-star{
+                            background-position: 0px -318px ;
+                        }
+                        .ico-weixin{
+                            background-position: -374px -131px;
+                        }
+                        .ico-mobile{
+                            background-position: -294px -171px;
+                        }
+                        &:hover{
+                            // background: #fff;
+                            color:#ff6a00;
+                        }
+                    }
+                    &:hover{
+                        background: #fff;
+
+                    }
+                    .hide-weixin{
+                        width: 160px;
+                        position: absolute;
+                        top: 35px;
+                        left: 0;                      
+                        font-size: 12px;
+                        display: none;
+                        background: #fff;
+                        border-right:1px solid #d9d9d9 ;
+                        border-left:1px solid #d9d9d9 ;
+                        border-bottom: 1px solid #d9d9d9 ;
+                        z-index: 5;
+                        img{
+                            margin-left:17px;
+                            margin-top:12px;  
+                            height: 124px;
+                            width: 124px;;
+                            
+                        }
+                        p{
+                            color: #737373;
+                            text-align: center;
+                        }
+                    }
+                    &:hover .hide-weixin{
+                        display: block;
+                    }
+                }
+            }
+            .right{
+                float: right;
+                li{
+                    position: relative;
+                    float: left;
+                    height: 35px;
+                    line-height: 35px;
+                    z-index: 5;
+                    a{  
+                        display: inline-block;
+                        color: #737373;
+                        padding: 0 8px;
+                        border-right: 1px solid #f2f2f2 ;
+                        border-left: 1px solid  #f2f2f2;
+                       &:hover{
+                           color: #ff6a00;
+                           
+                       }
+                        
+                    }
+                    .down{
+                        .ico{
+                            display: inline-block;
+                            margin-bottom: -8px;
+                            width: 24px;
+                            height: 24px;
+                            background: url(https://img02.hua.com/pc/assets/img/common_z.png)
+                        }
+                        .ico-car{
+                            background-position: -340px -284px;
+                        }
+                        &:hover{
+                            background: #fff;
+                            border-right: 1px solid #d9d9d9 ;
+                            border-left: 1px solid #d9d9d9 ;
+                        }
+                        .glyphicon{
+                            color: #ff6a00;
+                        }
+                    }
+                    .empty{
+                        position: absolute;
+                        top: 100%;
+                        right: 0;
+                        padding: 30px 0;
+                        width: 288px;
+                        line-height: 34px;
+                        text-align: center;
+                        border-right:1px solid #d9d9d9 ;
+                        border-left:1px solid #d9d9d9 ;
+                        border-bottom: 1px solid #d9d9d9 ;
+                        z-index: 5;
+                        background: #fff;   
+                        display: none;
+                    }
+                    &:hover .empty{
+                        display: block;
+                    }
+                    .list{
+                        position: absolute;
+                        top: 100%;
+                        right: 0;
+                        width: 78px;
+                        line-height: 24px;
+                        padding: 0 0 10px;
+                        text-align: center;
+                        display: none;
+                        border-right:1px solid #d9d9d9 ;
+                        border-left:1px solid #d9d9d9 ;
+                        border-bottom: 1px solid #d9d9d9 ;
+                        a{
+                            display: block;
+                            &:hover{
+                                text-decoration: underline;
+                            }
+                        }
+                        
+                    }
+                    &:hover .list{
+                        display: block;
+                        background: #fff;   
+                    }
+                    
+                }
+                .chen{
+                    i{
+                        float: right;
+                        margin-top: 15px; 
+                        display: block;
+                        width: 0px;
+                        height: 0px;
+                        border-width: 5px;
+
+                        border-style: solid;
+                        
+                        border-color: #aca7a7 transparent transparent transparent;
+                    }
+                    &:hover{
+                        background: #fff;
+                        a:nth-of-type(1) {
+                            color: #ff6a00;
+                        }
+                        i{
+                            border-color: #ff6a00 transparent transparent transparent;
+                        }
+                    }
+                    
+                }
+                .bar{
+                    font-size: 11px;
+                    color: #ccc;
+                    
+
+                }
+
+            }
+        }
+    }
+    /********* 头部*******/ 
+    header{
+        width: 1200px;
+        height: 120px;
+        margin: 0 auto;
+       
+        .logo{
+            float: left;
+            width: 500px;
+            height: 64px;
+            margin-top:28px; 
+            background: url(https://img02.hua.com/pc/assets/img/pc_hualogo.png) left center no-repeat;
+            a{
+                display: block;
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .center{
+            float: left;
+            width: 320px;
+            margin-top: 40px;
+            dt{
+                position: relative;
+                width: 320px;
+                height: 34px;
+                .form-control{
+                    display: table-cell;
+                    border:1px solid#ff6a00;                   
+                    z-index: 2;
+                    float: left;
+                    width: 225px;
+                    margin-bottom: 0;
+                    padding: 6px;
+                    height: 20px;
+                    font-size: 14px;
+                    line-height: 34px;
+                    color: #4d4d4d;
+                    background-color: #ffffff;
+                }
+                #btn_search{
+                    color: #ffffff;
+                    border-color: #f56600;
+                    background-color: #f56600;
+                    font-size: 16px;
+                    padding: 5px 22px;
+                    z-index: 2;
+                    float: right;
+                }
+            }
+            dd{
+                margin-top: 5px;
+                margin-bottom: 10px;    
+                a{
+                    display: inline-block;
+                    color: #999;
+                }
+                span{
+                    color: #b3b3b3;
+                }
+            }
+            a{
+                &:hover{
+                    color: #ff6a00;
+                    text-decoration: underline;
+                }
+            }
+        }
+        .right{
+            float: right;
+          
+            margin-top: 40px;
+            width: 251px;
+            dd{
+                display: block;
+                float: left;
+                font-size: 14px;
+                font-family: tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-serif;
+                .ico-phone{
+                    display: inline-block;
+                    margin-bottom: -10px;
+                    width: 30px;
+                    margin-right: 6px;
+                    height: 30px;
+                    background: url(https://img02.hua.com/pc/assets/img/common_z.png);
+                    background-position: -380px -46px;
+               }
+            }
+            a{
+                display: block;
+                float: right;
+                font-size: 12px;
+                margin-left: 15px;
+                padding-left: 20px;
+                color: #737373;
+                height: 18px;
+                border-left: 1px solid #d9d9d9;
+                &:hover{
+                    color: #ff6a00;
+                    text-decoration: underline;
+                }
+                span{
+                    display: inline-block;
+                    margin-bottom: -10px;
+                    width: 30px;
+                    margin-right: 6px;
+                    height: 30px;
+                    background: url(https://img02.hua.com/pc/assets/img/common_z.png);
+                    background-position: -294px -131px;
+                }
+               
+            }
+        }
+    }
+    /****  nav*****/ 
+    nav{
+        width: 100%;;
+        height: 37px;
+        border-bottom:3px solid #ff6a00; 
+        .contxt{
+            width: 1200px;
+            height: 37px;
+            margin: 0 auto;
+            .down_nav{
+                width: 230px;
+                height: 40px;
+                background: #ff6a00;
+                float: left;
+                li{
+                    
+                    padding: 0 15px;
+                   
+                    line-height: 40px;
+                    a{
+                        display: inline-block;
+                        color: #fff;
+                        font-size: 15px;
+                        font-weight:600; 
+                        
+                        // &:hover{
+                        //     text-decoration: underline;
+                        // }
+                    }
+                }
+            }
+            .left_nav{
+                float: left;
+                li{
+                    float: left;
+                    a{
+                        display: block;
+                        padding: 9px 24px;
+                        font-size: 15px;
+                        color: #737373;
+                        font-weight:700; 
+                        &:hover{
+                            color: #ff6a00;
+                        }
+                    }
+                }
+                .last{
+                    a{
+                        color: #ff6a00;
+                    }
+                }
+            }
+        }
+    }
+    /*******banner*******/ 
+    .banner{
+        position: relative;
+        width: 100%;
+        height: 440px;
+        margin-bottom: 30px;
+        overflow: hidden;
+        .wrap{
+            width: 100%;
+            height: 440px;
+            position: relative;
+            a{            
+                display: block;
+                position: absolute;
+                width: 100%;
+                height: 440px;
+                margin: 0 auto;
+                // span{
+                //     display: block;
+                //     width: 100%;
+                //     // margin: 0 auto;
+                //     height: 440px;
+                    // background-image: url(https://img02.hua.com/slider/18_xmas_pc.png)  ;
+                    background-position: center;
+                    background-size:cover; 
+                   
+                // }
+            }
+            .first{
+                // span{
+                    background-image: url(https://img02.hua.com/slider/18_xmas_pc.png)  ;
+                // }
+            }
+            .second{
+                // span{
+                    background-image: url(https://img02.hua.com/slider/18_birthday_pc.jpg) ;
+                // }
+            }
+            .thrid{
+                // span{
+                    background-image: url(https://img02.hua.com/slider/17_sheshou_pc.jpg) ;
+                // }
+            }
+            
+            .fourth{
+                // span{
+                    background-image: url(https://img02.hua.com/banner/longtou.jpg) ;
+                // }
+            }
+            .slide-show{
+                z-index: 2;
+            }
+            .slide-willhide{
+                z-index: 1;
+            }
+        }
+        .pagination{
+            position: absolute;
+            z-index: 3;
+            bottom: 20px;
+            width: 100%;
+            height: 20px;
+            text-align:center;
+            // background: rgba(0,0,0,.3);
+            padding: 5px 0 ;
+            span{
+                z-index: 3;
+                display: inline-block;
+                width: 14px;
+                height: 14px;
+                background: rgba(0,0,0,.6);
+                border-radius: 50%;
+                box-shadow: 0 0 5px rgba(0,0,0,.6);
+                margin-left: 10px;
+            }
+            .active{
+                    background: #f56600;
+            }
+        }
+        .btn_left{
+            position: absolute;
+            top: 205px;
+            width: 60px;
+            left: 440px;
+            height: 40px;
+            text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+            z-index: 3;
+           a{
+            color: #f2f2f2;
+            font-size: 16px;
+            .fas{
+                font-size:25px; 
+            }
+           }
+        }
+        .btn_right{
+            position: absolute;
+            top: 205px;
+            right: 382px;
+            width: 60px;
+            height: 40px;
+            text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+            z-index: 3;
+            a{
+                color: #f2f2f2;
+                font-size: 16px;
+                .fas{
+                    font-size:25px; 
+                }
+               }
+        }
+    }
+    /********内容********/ 
+    .container{
+        width: 100%;
+        /****服务****/ 
+        .top_server{
+            width: 1200px;
+            margin: 0 auto;
+            height: 40px;
+            padding-bottom: 50px;
+            ul{
+                width: 1200px;
+                height: 40px;
+                overflow: hidden;
+                li{
+                    float: left;
+                    height: 40px;
+                    a{
+                        display: block;
+                        span{
+                            display: block;
+                            float: left;
+                            width: 40px;
+                            height: 40px;
+                            background-image: url(https://img02.hua.com/pc/assets/img/common_z.png)
+                        }
+                        h4{
+                            font-family: Arial, Helvetica, sans-serif;
+                            font-size: 16px;
+                            margin: 0 0 5px 50px;
+                            color: #4d4d4d;
+                        }
+                        p{
+                            font-size: 12px;
+                            margin-bottom: 0;
+                            margin-left: 50px;
+                            color: #999999;
+                        }
+                    }
+                    
+                }
+                li:nth-child(1){
+                    margin: 0 29px 0 10px;
+                    span{
+                        background-position: -244px -100px;
+                    }
+                }
+                li:nth-child(2){
+                    margin: 0 29px;
+                    span{
+                        background-position: -244px -50px;
+                    }
+                }
+                li:nth-child(3){
+                    margin: 0 29px;
+                    span{
+                        background-position: -244px 0px;
+                    }
+                }
+                li:nth-child(4){
+                    margin: 0 29px;
+                    span{
+                        background-position: -150px -184px;
+                    }
+                }
+                li:nth-child(5){
+                    margin: 0 0 0 29px;
+                    span{
+                        background-position: -100px -184px;
+                    
+                    }
+                }
+            }
+        }
+        /****限时推荐******/ 
+        .time_limit{
+            width: 1200px;
+            margin: 0 auto 40px;
+            .title{
+                float: left;
+                width: 232px;
+                height: 160px;
+                padding-top:40px; 
+                background: #aacc03;
+                span{
+                    display: block;                  
+                   margin:0 auto; 
+                    width: 64px;
+                    height: 64px;
+                    background-image: url(https://img02.hua.com/pc/assets/img/common_z.png);
+                    background-position: 0px 0px;  
+                }
+                p{
+                    font-size: 24px;
+                    height: 48px;
+                    line-height:69px ;
+                    color: #fff;
+                    text-align: center;
+                }
+            }
+            ul{
+                float: left;
+                li{
+                    float: left;
+                    width: 238px;
+                    height: 198px;
+                    border: 1px solid #e5e5e5;  
+                    a{
+                        display: block;
+                        width: 100%;
+                        height: 100%;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                }
+            }
+            .right_show{
+                float: right;
+                width: 248px;
+                height: 200px;
+                
+                a{
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                    overflow: hidden;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                    &:hover{
+                        img{
+                            width: 270px; 
+                            height: 216px;
+                            margin: -10px 0px 0px -8px;
+                        }
+                    }
+                }
+            }
+        }
+        /*******爱情鲜花*********/ 
+        .floor{
+            width: 1200px;
+            // height: 676px;
+            margin: 0 auto 40px;
+            dt{
+                width: 1180px;
+                margin: 0 10px 15px;
+                h2{
+                    display: block;
+                    float: left;
+                    a{
+                        font-size: 20px;
+                        color: #737373;
+   
+                    }
+                    span{
+                        font-size: 14px;
+                        margin-left:20px; 
+                    }
+                    
+                }
+                .shabi{
+                    margin-top: 6px;
+                    display: block;
+                    float: right;
+                    font-size: 14px;
+                    color: #737373;
+                }
+                a:hover{
+                    color: #ff6a00;
+                    text-decoration: underline;
+                }
+            }
+            .big_img{
+                float: left;
+                width: 243px;
+                height: 639px;
+                background:#ffc0bb ;
+                .title_pic{
+                    display: block;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .title_fo{
+                    font-size: 18px;
+                    line-height: 48px;
+                    display: block;
+                    width: 194px;
+                    height: 52px;
+                    margin: 70px auto;
+                    text-align: center;
+                    color: #fff;
+                    border: 2px solid #fff;
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                }
+            }
+            ul{
+                float: left;
+                width: 957px;
+                border-bottom: 1px  solid #e5e5e5 ;
+                overflow: hidden;
+                li{
+                    float: left;
+                    overflow: hidden;
+                    width: 237px;
+                    height: 310px;
+                    margin-right: -1px;
+                    margin-bottom: -1px;
+                    padding-top: 10px;
+                    text-align: center;
+                    border: 1px solid #e5e5e5;
+                    background-color: #fff;
+                    a{
+                        display: block;
+                        
+                        img{
+                            height: 237px;
+                            width: 220px;
+                            margin: 0 9px 15px; 
+                        }
+                        span{
+                            text-align: center;
+                            color: #737373;
+                            white-space: nowrap;
+                            text-overflow: ellipsis;
+                            overflow: hidden;
+                           
+                        }
+                        p{
+                            font-size: 14px;
+                            font-weight: bold;
+                            color: #000;
+                            margin: 0 0 10px;
+                        }
+                        &:hover{
+                           span{
+                            color: #ff6a00;
+                            text-decoration: underline;
+                           }
+                           p{
+                            color: #ff6a00;
+                            text-decoration: underline;
+                           }
+                        }
+                    }
+                }
+            }
+        }
+        .f2{
+            .big_img{
+                background:#c2acd1 ;  
+            }
+        }
+        .f3{
+            .big_img{
+                background:#d6d8ec ;  
+            }
+        }
+        .floor_end{
+            width: 1200px;
+            // height: 676px;
+            margin: 0 auto 40px;
+            dt{
+                width: 1180px;
+                margin: 0 10px 15px;
+                h2{
+                    display: block;
+                    float: left;
+                    a{
+                        font-size: 20px;
+                        color: #737373;
+   
+                    }
+                    span{
+                        font-size: 14px;
+                        margin-left:20px; 
+                    }
+                    
+                }
+                .shabi{
+                    margin-top: 6px;
+                    display: block;
+                    float: right;
+                    font-size: 14px;
+                    color: #737373;
+                }
+                a:hover{
+                    color: #ff6a00;
+                    text-decoration: underline;
+                }
+            }
+            .big_img{
+                float: left;
+                width: 242px;
+                height: 639px;
+                // background:#ffc0bb ;
+                .big_pic{
+                    width: 242px;
+                    height: 320px;
+                    a{
+                        display: block;
+                        width: 100%;
+                        height: 100%;
+                        position: relative;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                        }
+                        span{
+                            display: block;
+                            position: absolute;
+                            top: 177px;
+                            left: 8px;
+                            width: 225px;
+                            height: 64px;
+                            border: 0;
+                            background: #ffcd8d;
+                            opacity: 0.8;
+                            color: #fff;
+                            font-size: 18px;
+                            text-align: center;
+                            line-height: 64px;
+                            
+                        }
+                        &:hover{
+                            span{
+                                text-decoration: underline;
+                            }
+                        }
+                    }
+                 }
+                .classify{
+                    border-bottom: 1px solid  #e5e5e5; 
+                    border-left: 1px solid  #e5e5e5; 
+                   dl{
+                       padding: 3px 15px 9px;
+                       h3{
+                        font-size: 14px;
+                        font-weight: bold;
+                        margin: 25px 0px 15px;
+                        color: #ff6a00;
+                       }
+                       dd{
+                        line-height: 24px;
+                        margin-right: 3px;
+                        padding: 0;
+                        a{
+                            display: inline-block;
+                            margin-right:5px; 
+                            color: #737373;
+                            &:hover{
+                                color: #ff6a00;
+                                text-decoration: underline;
+                            }
+                        }
+                       }
+                       
+                   }
+                   li{
+                    height: 0;
+                    margin: 20px 12px 15px;
+                    border-bottom: 1px solid #d9d9d9;
+                   }
+                }
+            }
+            ul{
+                float: left;
+                width: 957px;
+                border-bottom: 1px  solid #e5e5e5 ;
+                overflow: hidden;
+                li{
+                    float: left;
+                    overflow: hidden;
+                    width: 237px;
+                    height: 310px;
+                    margin-right: -1px;
+                    margin-bottom: -1px;
+                    padding-top: 10px;
+                    text-align: center;
+                    border: 1px solid #e5e5e5;
+                    background-color: #fff;
+                    a{
+                        display: block;
+                        
+                        img{
+                            height: 237px;
+                            width: 220px;
+                            margin: 0 9px 15px; 
+                        }
+                        span{
+                            text-align: center;
+                            color: #737373;
+                            white-space: nowrap;
+                            text-overflow: ellipsis;
+                            overflow: hidden;
+                           
+                        }
+                        p{
+                            font-size: 14px;
+                            font-weight: bold;
+                            color: #000;
+                            margin: 0 0 10px;
+                        }
+                        &:hover{
+                           span{
+                            color: #ff6a00;
+                            text-decoration: underline;
+                           }
+                           p{
+                            color: #ff6a00;
+                            text-decoration: underline;
+                           }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    /******面板********/ 
+    .panel-wrapper{
+        width: 100%;
+        margin: 0 0 15px 0;
+        .panel{
+            width: 1200px;
+            margin: 0 auto;
+            .news1{
+               width: 240px; 
+            }
+        }
+    }
+}
