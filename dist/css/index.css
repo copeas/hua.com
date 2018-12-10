@@ -725,4 +725,47 @@ body, html {
       width: 1200px;
       margin: 0 auto; }
       body .panel-wrapper .panel .news1, html .panel-wrapper .panel .news1 {
-        width: 240px; }
+        width: 240px;
+        height: 292px;
+        margin-right: 15px; }
+        body .panel-wrapper .panel .news1 dl, html .panel-wrapper .panel .news1 dl {
+          background: #f2f2f2;
+          padding-bottom: 35px; }
+          body .panel-wrapper .panel .news1 dl dd, html .panel-wrapper .panel .news1 dl dd {
+            height: 32px;
+            padding: 11px 10px 3px 15px;
+            background-color: #898989; }
+            body .panel-wrapper .panel .news1 dl dd a, html .panel-wrapper .panel .news1 dl dd a {
+              width: 215px;
+              display: block; }
+              body .panel-wrapper .panel .news1 dl dd a h4, html .panel-wrapper .panel .news1 dl dd a h4 {
+                float: left;
+                font-size: 14px;
+                font-weight: bold;
+                color: #fff; }
+              body .panel-wrapper .panel .news1 dl dd a span, html .panel-wrapper .panel .news1 dl dd a span {
+                width: 16px;
+                height: 16px;
+                display: block;
+                float: right;
+                background-image: url(https://img02.hua.com/pc/assets/img/common_z.png);
+                background-position: -390px -318px; }
+          body .panel-wrapper .panel .news1 dl dt, html .panel-wrapper .panel .news1 dl dt {
+            font-size: 12px;
+            line-height: 35px; }
+            body .panel-wrapper .panel .news1 dl dt span, html .panel-wrapper .panel .news1 dl dt span {
+              display: block;
+              float: left;
+              margin-left: 8px;
+              margin-top: 16px;
+              margin-right: 9px;
+              width: 4px;
+              height: 4px;
+              border-radius: 2px;
+              background: #737373; }
+            body .panel-wrapper .panel .news1 dl dt a, html .panel-wrapper .panel .news1 dl dt a {
+              display: inline-block;
+              color: #737373; }
+              body .panel-wrapper .panel .news1 dl dt a:hover, html .panel-wrapper .panel .news1 dl dt a:hover {
+                color: #f56600;
+                text-decoration: underline; }
