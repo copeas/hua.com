@@ -915,6 +915,7 @@ body,html{
             width: 1200px;
             margin: 0 auto;
             .news1{
+                float: left;
                width: 240px; 
                height: 292px;
                margin-right: 15px;
@@ -967,12 +968,462 @@ body,html{
                         color: #737373;
                         &:hover{
                             color: #f56600;
-                            text-decoration: underline;
+                            text-decoration: underline;                  
                         }
                     }
                 }
                }
             }
+            .comment{
+                float: left;
+                width: 470px;
+                height: 292px;
+                margin-right: 15px;
+                dd{
+                    height: 32px;
+                    padding: 11px 10px 3px 15px;
+                    background-color: #898989;
+                    a{  
+                        width: 445px;
+                        display: block;
+                        h4{
+                            float: left;
+                            font-size: 14px;
+                            font-weight: bold;
+                            color: #fff;
+
+                        }
+                        span{
+                            width: 16px;
+                            height: 16px;
+                            display: block;
+                           float: right;
+                            background-image: url(https://img02.hua.com/pc/assets/img/common_z.png);
+                            background-position: -390px -318px;
+                        }
+                    }
+                    
+
+                }
+                dl{
+                    height: 207px;
+                    padding: 20px 15px;
+                    background-color: #f2f2f2;
+                   dt{
+                    margin-bottom: 0;
+                    padding: 9px 0;
+                    border-bottom: 1px solid #e5e5e5;
+                    li{
+                        font-size: 12px;
+                        font-weight: normal;
+                        float: left !important;
+                        width: 50px;
+                        text-align: center;
+                        margin-right:25px; 
+                        img{
+                            display: block;
+                            margin: 0 auto 2px;
+                            width: 37px;
+                            height: 38px;
+                        }
+                       a{                           
+                            display: block;
+                            width: 50px;
+                            white-space: nowrap;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            font-size: 12px;
+                            color: #737373;
+                        
+                        }
+                       
+                       
+                    }
+                    .cont{
+                        height: 100%;
+                        float: left;
+                        p{
+                            width: 87px;
+                            height: 17px;
+                            font-weight: 700;
+                            margin-bottom: 8px;
+                            .r4{
+                                display: block;
+                                float: right;
+                                width: 56px;
+                                height: 16px;
+                                margin-left:4px ;
+                                background: url(https://img02.hua.com/pc/assets/img/common_z.png);
+                                background-position: 0px -352px;
+                            }
+                            .r5{
+                                display: block;
+                                float: right;
+                                width: 70px;
+                                height: 16px;
+                                margin-left:4px ;
+                                background: url(https://img02.hua.com/pc/assets/img/common_z.png);
+                                background-position: 0px -352px;
+                            }
+
+                        }
+                        a{
+                            width: 270px;
+                            line-height: 16px;
+                            color: #737373;
+                            &:hover{
+                                color: #f56600;
+                                text-decoration: underline;
+                                }
+                        }
+                    }
+                   }
+                  
+                }
+            }
+            .hot_news{
+                float: left;
+                width: 460px;
+                dd{
+                    height: 32px;
+                    padding: 11px 10px 3px 15px;
+                    background-color: #898989;
+                    a{  
+                        width: 435px;
+                        display: block;
+                        h4{
+                            float: left;
+                            font-size: 14px;
+                            font-weight: bold;
+                            color: #fff;
+
+                        }
+                        span{
+                            width: 16px;
+                            height: 16px;
+                            display: block;
+                           float: right;
+                            background-image: url(https://img02.hua.com/pc/assets/img/common_z.png);
+                            background-position: -390px -318px;
+                        }
+                    }
+                    
+
+                }
+                .content_a{
+                    height: 208px;
+                    padding: 20px 15px;
+                    background-color: #f2f2f2;
+                    ul{
+                        float: left;
+                        width: 197px;
+                        margin: 0;
+                        padding: 0 0 0 10px;
+                        &:first-child {
+                            margin-right: 15px;
+                            border-right: 1px solid #e5e5e5;
+                        }
+                        li{
+                            list-style-type: disc;
+                            font-size: 12px;
+                            line-height: 35px;
+                            a{
+                                color: #737373;
+                            }
+                        }
+                    }
+                    a:hover{
+                        color: #f56600;
+                        text-decoration: underline;
+                    }
+                }
+            }
         }
+    }
+
+    /******APP + 微信**********/ 
+    .app_wrap{
+        width: 100%;
+        .app_wx{
+            width: 1198px;
+            border: 1px solid #e5e5e5;
+            margin:0 auto 15px;  
+            .app{
+                padding: 25px 0px 20px 20px;
+                width: 314px;
+                height: 125px;
+                float: left;
+                img{
+                    margin-left: 13px;
+                    margin-right: 19px;
+                    float: left;
+                }
+                dt{
+                    float: left;
+                    h3{
+                        font-size:14px; 
+                        font-weight: bold;
+                        margin: 0 0 10px;
+                        color: #ff6a00;
+                    }
+                    p{
+                        margin-bottom: 15px;
+                        color:#737373;
+                    }
+                    span{
+                        display: inline-block;
+                         vertical-align: middle;
+                        width: 50px;
+                        height: 50px;
+                        background-image: url(https://img02.hua.com/pc/assets/img/common_z.png);
+                    }
+                    .ios{
+                        background-position: -134px 0px;
+                    }
+                    .adr{
+                        background-position: -60px -74px;
+                    }
+                }
+            }
+            .cartoon{
+                width: 466px;
+                float: left;
+                a{
+                    display: block;
+                    img{
+                        width: 466px;
+                        height: 143px;
+                        margin: 13px 0;
+                    }
+                }
+            }
+            .wchat{
+                padding: 25px 0px 20px 20px;
+                // width: 314px;
+                height: 125px;
+                float: left;
+                img{
+                    margin-left: 13px;
+                    margin-right: 19px;
+                    float: left;
+                }
+                dt{
+                    float: left;
+                    h3{
+                        font-size:14px; 
+                        font-weight: bold;
+                        margin: 0 0 10px;
+                        color: #ff6a00;
+                    }
+                    p{
+                        margin-bottom: 15px;
+                        color:#737373;
+                    }
+                    span{
+                        display: inline-block;
+                         vertical-align: middle;
+                        width: 48px;
+                        height: 48px;
+                        background-image: url(https://img02.hua.com/pc/assets/img/common_z.png);
+                        background-position: -134px -60px;
+                    }
+                   
+                }
+            }
+        }
+    }
+
+    /***** footer_nav*******/ 
+    .footer_nav{
+        width: 100%;
+        ul{
+            width: 1200px;
+            padding: 22px 0px;
+            margin: 0 auto 30px;
+            background-color: #f60;
+            li{
+                line-height: 40px;
+                float: left;
+                padding: 0 18px;
+
+                border-right: 1px solid #ff953a;
+                border-left: 1px solid #c15900;
+                a{
+                    display: block;
+                    color: #fff;
+                    line-height: 40px;
+                    font-size: 14px;
+                    span{
+                        display: inline-block;
+                        vertical-align: middle;
+                        width: 40px;
+                        height: 40px;
+                        background-image: url(//img02.hua.com/pc/assets/img/common_z.png);
+                        
+                    }
+                    .ico1{
+                        background-position: -50px -184px;
+                    }
+                    .ico2{
+                        background-position: 0px -184px;
+                    }
+                    .ico3{
+                        background-position: -194px -100px;
+                    }
+                    .ico4{
+                        background-position: -194px -50px;
+                    }
+                    .ico5{
+                        background-position: -194px 0px;
+                    }
+                    .ico6{
+                        background-position: -100px -134px;
+                    }
+                    .ico7{
+                        background-position: -50px -134px;
+                    }
+                    .ico8{
+                        background-position: 0px -134px;
+                    }
+                }
+                &:nth-child(8){
+                    border-right: none;
+                }
+            }
+        }
+    }
+
+    footer{
+        width: 100%;
+        .end_nav{
+            font-size: 12px;
+            width: 1200px;
+            margin: 30px auto;
+            text-align: center;
+            color: #d9d9d9;
+            a{
+                display: inline-block;
+                margin: 0 32px;
+                color: #737373;
+                &:hover{
+                    color: #f56600;
+                    text-decoration: underline;
+                }
+            }
+        }
+       .footer_help{
+           width: 100%;
+           background: #f2f2f2;
+        .container{
+            width: 1200px;
+            height: 150px;
+            margin: 0 auto;
+            .mod {
+                float: left;
+                width: 250px;
+                height: 150px;
+                padding-left: 45px;
+                border-left: 1px solid #d9d9d9;
+                h4 {
+                   
+                    font-size: 14px;
+                    margin-top: 0;
+                    margin-bottom: 15px;
+                    color: #010101;
+                }
+                a{
+                    color: #737373;
+                    &:hover{
+                        color: #f56600;
+                        text-decoration: underline;
+                    }
+                }
+            }
+            .mod-a {
+                width: 180px;
+                padding-right: 120px;
+                padding-left: 0;
+                border-left: none;
+                li {
+                    display: inline-block;
+                    width: 80px;
+                    // padding-right: 30px;
+                    line-height: 24px;
+                }
+            }
+            .mod-b{
+                li{
+                    line-height: 24px;
+                }
+            }
+            .mod-c {
+                width: 174px;
+                padding-right: 80px;
+                li {
+                    display: inline-block;
+                    width: 80px;
+                    // padding-right: 30px;
+                    line-height: 20px;
+                }
+            }
+             .mod-d {
+                padding-right: 0px;
+                p{
+                    line-height: 24px;
+                }
+            }
+        }
+       }
+       .auth{
+            width: 1200px;
+            height: 54px;
+            padding-left:140px; 
+            margin: 30px auto 30px;
+            a{
+                display: inline-block;
+                margin-right:15px; 
+            }
+            img{
+                display: inline-block;
+            }
+       }
+       p{
+           width: 1200px;
+           height: 17px;
+           margin: 0 auto 10px;
+           text-align: center ;
+           a{
+               display: inline-block;
+               color: #737373;
+               &:hover{
+                   color: #f56600;
+                   text-decoration: underline;
+               }
+           }
+       }
+       .footer_link{
+           border-top: 1px solid #d9d9d9; 
+           border-bottom: 1px solid #d9d9d9; 
+           width: 1200px;
+           margin: 0 auto 10px;
+           padding: 25px 0;
+           i{
+               display: block;
+                float: left;
+                font-weight:700; 
+           }
+           div{
+               margin-left:30px; 
+               a{
+                display: inline-block;
+                margin: 0 4px;
+                color: #737373;
+                &:hover{
+                    color: #f56600;
+                    text-decoration: underline;
+                }
+               }
+           }
+       }
     }
 }

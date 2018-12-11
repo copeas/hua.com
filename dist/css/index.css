@@ -53,7 +53,9 @@ body, html {
   /****  nav*****/
   /*******banner*******/
   /********内容********/
-  /******面板********/ }
+  /******面板********/
+  /******APP + 微信**********/
+  /***** footer_nav*******/ }
   body #topbrand, html #topbrand {
     display: block;
     width: 100%;
@@ -725,6 +727,7 @@ body, html {
       width: 1200px;
       margin: 0 auto; }
       body .panel-wrapper .panel .news1, html .panel-wrapper .panel .news1 {
+        float: left;
         width: 240px;
         height: 292px;
         margin-right: 15px; }
@@ -769,3 +772,340 @@ body, html {
               body .panel-wrapper .panel .news1 dl dt a:hover, html .panel-wrapper .panel .news1 dl dt a:hover {
                 color: #f56600;
                 text-decoration: underline; }
+      body .panel-wrapper .panel .comment, html .panel-wrapper .panel .comment {
+        float: left;
+        width: 470px;
+        height: 292px;
+        margin-right: 15px; }
+        body .panel-wrapper .panel .comment dd, html .panel-wrapper .panel .comment dd {
+          height: 32px;
+          padding: 11px 10px 3px 15px;
+          background-color: #898989; }
+          body .panel-wrapper .panel .comment dd a, html .panel-wrapper .panel .comment dd a {
+            width: 445px;
+            display: block; }
+            body .panel-wrapper .panel .comment dd a h4, html .panel-wrapper .panel .comment dd a h4 {
+              float: left;
+              font-size: 14px;
+              font-weight: bold;
+              color: #fff; }
+            body .panel-wrapper .panel .comment dd a span, html .panel-wrapper .panel .comment dd a span {
+              width: 16px;
+              height: 16px;
+              display: block;
+              float: right;
+              background-image: url(https://img02.hua.com/pc/assets/img/common_z.png);
+              background-position: -390px -318px; }
+        body .panel-wrapper .panel .comment dl, html .panel-wrapper .panel .comment dl {
+          height: 207px;
+          padding: 20px 15px;
+          background-color: #f2f2f2; }
+          body .panel-wrapper .panel .comment dl dt, html .panel-wrapper .panel .comment dl dt {
+            margin-bottom: 0;
+            padding: 9px 0;
+            border-bottom: 1px solid #e5e5e5; }
+            body .panel-wrapper .panel .comment dl dt li, html .panel-wrapper .panel .comment dl dt li {
+              font-size: 12px;
+              font-weight: normal;
+              float: left !important;
+              width: 50px;
+              text-align: center;
+              margin-right: 25px; }
+              body .panel-wrapper .panel .comment dl dt li img, html .panel-wrapper .panel .comment dl dt li img {
+                display: block;
+                margin: 0 auto 2px;
+                width: 37px;
+                height: 38px; }
+              body .panel-wrapper .panel .comment dl dt li a, html .panel-wrapper .panel .comment dl dt li a {
+                display: block;
+                width: 50px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                font-size: 12px;
+                color: #737373; }
+            body .panel-wrapper .panel .comment dl dt .cont, html .panel-wrapper .panel .comment dl dt .cont {
+              height: 100%;
+              float: left; }
+              body .panel-wrapper .panel .comment dl dt .cont p, html .panel-wrapper .panel .comment dl dt .cont p {
+                width: 87px;
+                height: 17px;
+                font-weight: 700;
+                margin-bottom: 8px; }
+                body .panel-wrapper .panel .comment dl dt .cont p .r4, html .panel-wrapper .panel .comment dl dt .cont p .r4 {
+                  display: block;
+                  float: right;
+                  width: 56px;
+                  height: 16px;
+                  margin-left: 4px;
+                  background: url(https://img02.hua.com/pc/assets/img/common_z.png);
+                  background-position: 0px -352px; }
+                body .panel-wrapper .panel .comment dl dt .cont p .r5, html .panel-wrapper .panel .comment dl dt .cont p .r5 {
+                  display: block;
+                  float: right;
+                  width: 70px;
+                  height: 16px;
+                  margin-left: 4px;
+                  background: url(https://img02.hua.com/pc/assets/img/common_z.png);
+                  background-position: 0px -352px; }
+              body .panel-wrapper .panel .comment dl dt .cont a, html .panel-wrapper .panel .comment dl dt .cont a {
+                width: 270px;
+                line-height: 16px;
+                color: #737373; }
+                body .panel-wrapper .panel .comment dl dt .cont a:hover, html .panel-wrapper .panel .comment dl dt .cont a:hover {
+                  color: #f56600;
+                  text-decoration: underline; }
+      body .panel-wrapper .panel .hot_news, html .panel-wrapper .panel .hot_news {
+        float: left;
+        width: 460px; }
+        body .panel-wrapper .panel .hot_news dd, html .panel-wrapper .panel .hot_news dd {
+          height: 32px;
+          padding: 11px 10px 3px 15px;
+          background-color: #898989; }
+          body .panel-wrapper .panel .hot_news dd a, html .panel-wrapper .panel .hot_news dd a {
+            width: 435px;
+            display: block; }
+            body .panel-wrapper .panel .hot_news dd a h4, html .panel-wrapper .panel .hot_news dd a h4 {
+              float: left;
+              font-size: 14px;
+              font-weight: bold;
+              color: #fff; }
+            body .panel-wrapper .panel .hot_news dd a span, html .panel-wrapper .panel .hot_news dd a span {
+              width: 16px;
+              height: 16px;
+              display: block;
+              float: right;
+              background-image: url(https://img02.hua.com/pc/assets/img/common_z.png);
+              background-position: -390px -318px; }
+        body .panel-wrapper .panel .hot_news .content_a, html .panel-wrapper .panel .hot_news .content_a {
+          height: 208px;
+          padding: 20px 15px;
+          background-color: #f2f2f2; }
+          body .panel-wrapper .panel .hot_news .content_a ul, html .panel-wrapper .panel .hot_news .content_a ul {
+            float: left;
+            width: 197px;
+            margin: 0;
+            padding: 0 0 0 10px; }
+            body .panel-wrapper .panel .hot_news .content_a ul:first-child, html .panel-wrapper .panel .hot_news .content_a ul:first-child {
+              margin-right: 15px;
+              border-right: 1px solid #e5e5e5; }
+            body .panel-wrapper .panel .hot_news .content_a ul li, html .panel-wrapper .panel .hot_news .content_a ul li {
+              list-style-type: disc;
+              font-size: 12px;
+              line-height: 35px; }
+              body .panel-wrapper .panel .hot_news .content_a ul li a, html .panel-wrapper .panel .hot_news .content_a ul li a {
+                color: #737373; }
+          body .panel-wrapper .panel .hot_news .content_a a:hover, html .panel-wrapper .panel .hot_news .content_a a:hover {
+            color: #f56600;
+            text-decoration: underline; }
+  body .app_wrap, html .app_wrap {
+    width: 100%; }
+    body .app_wrap .app_wx, html .app_wrap .app_wx {
+      width: 1198px;
+      border: 1px solid #e5e5e5;
+      margin: 0 auto 15px; }
+      body .app_wrap .app_wx .app, html .app_wrap .app_wx .app {
+        padding: 25px 0px 20px 20px;
+        width: 314px;
+        height: 125px;
+        float: left; }
+        body .app_wrap .app_wx .app img, html .app_wrap .app_wx .app img {
+          margin-left: 13px;
+          margin-right: 19px;
+          float: left; }
+        body .app_wrap .app_wx .app dt, html .app_wrap .app_wx .app dt {
+          float: left; }
+          body .app_wrap .app_wx .app dt h3, html .app_wrap .app_wx .app dt h3 {
+            font-size: 14px;
+            font-weight: bold;
+            margin: 0 0 10px;
+            color: #ff6a00; }
+          body .app_wrap .app_wx .app dt p, html .app_wrap .app_wx .app dt p {
+            margin-bottom: 15px;
+            color: #737373; }
+          body .app_wrap .app_wx .app dt span, html .app_wrap .app_wx .app dt span {
+            display: inline-block;
+            vertical-align: middle;
+            width: 50px;
+            height: 50px;
+            background-image: url(https://img02.hua.com/pc/assets/img/common_z.png); }
+          body .app_wrap .app_wx .app dt .ios, html .app_wrap .app_wx .app dt .ios {
+            background-position: -134px 0px; }
+          body .app_wrap .app_wx .app dt .adr, html .app_wrap .app_wx .app dt .adr {
+            background-position: -60px -74px; }
+      body .app_wrap .app_wx .cartoon, html .app_wrap .app_wx .cartoon {
+        width: 466px;
+        float: left; }
+        body .app_wrap .app_wx .cartoon a, html .app_wrap .app_wx .cartoon a {
+          display: block; }
+          body .app_wrap .app_wx .cartoon a img, html .app_wrap .app_wx .cartoon a img {
+            width: 466px;
+            height: 143px;
+            margin: 13px 0; }
+      body .app_wrap .app_wx .wchat, html .app_wrap .app_wx .wchat {
+        padding: 25px 0px 20px 20px;
+        height: 125px;
+        float: left; }
+        body .app_wrap .app_wx .wchat img, html .app_wrap .app_wx .wchat img {
+          margin-left: 13px;
+          margin-right: 19px;
+          float: left; }
+        body .app_wrap .app_wx .wchat dt, html .app_wrap .app_wx .wchat dt {
+          float: left; }
+          body .app_wrap .app_wx .wchat dt h3, html .app_wrap .app_wx .wchat dt h3 {
+            font-size: 14px;
+            font-weight: bold;
+            margin: 0 0 10px;
+            color: #ff6a00; }
+          body .app_wrap .app_wx .wchat dt p, html .app_wrap .app_wx .wchat dt p {
+            margin-bottom: 15px;
+            color: #737373; }
+          body .app_wrap .app_wx .wchat dt span, html .app_wrap .app_wx .wchat dt span {
+            display: inline-block;
+            vertical-align: middle;
+            width: 48px;
+            height: 48px;
+            background-image: url(https://img02.hua.com/pc/assets/img/common_z.png);
+            background-position: -134px -60px; }
+  body .footer_nav, html .footer_nav {
+    width: 100%; }
+    body .footer_nav ul, html .footer_nav ul {
+      width: 1200px;
+      padding: 22px 0px;
+      margin: 0 auto 30px;
+      background-color: #f60; }
+      body .footer_nav ul li, html .footer_nav ul li {
+        line-height: 40px;
+        float: left;
+        padding: 0 18px;
+        border-right: 1px solid #ff953a;
+        border-left: 1px solid #c15900; }
+        body .footer_nav ul li a, html .footer_nav ul li a {
+          display: block;
+          color: #fff;
+          line-height: 40px;
+          font-size: 14px; }
+          body .footer_nav ul li a span, html .footer_nav ul li a span {
+            display: inline-block;
+            vertical-align: middle;
+            width: 40px;
+            height: 40px;
+            background-image: url(//img02.hua.com/pc/assets/img/common_z.png); }
+          body .footer_nav ul li a .ico1, html .footer_nav ul li a .ico1 {
+            background-position: -50px -184px; }
+          body .footer_nav ul li a .ico2, html .footer_nav ul li a .ico2 {
+            background-position: 0px -184px; }
+          body .footer_nav ul li a .ico3, html .footer_nav ul li a .ico3 {
+            background-position: -194px -100px; }
+          body .footer_nav ul li a .ico4, html .footer_nav ul li a .ico4 {
+            background-position: -194px -50px; }
+          body .footer_nav ul li a .ico5, html .footer_nav ul li a .ico5 {
+            background-position: -194px 0px; }
+          body .footer_nav ul li a .ico6, html .footer_nav ul li a .ico6 {
+            background-position: -100px -134px; }
+          body .footer_nav ul li a .ico7, html .footer_nav ul li a .ico7 {
+            background-position: -50px -134px; }
+          body .footer_nav ul li a .ico8, html .footer_nav ul li a .ico8 {
+            background-position: 0px -134px; }
+        body .footer_nav ul li:nth-child(8), html .footer_nav ul li:nth-child(8) {
+          border-right: none; }
+  body footer, html footer {
+    width: 100%; }
+    body footer .end_nav, html footer .end_nav {
+      font-size: 12px;
+      width: 1200px;
+      margin: 30px auto;
+      text-align: center;
+      color: #d9d9d9; }
+      body footer .end_nav a, html footer .end_nav a {
+        display: inline-block;
+        margin: 0 32px;
+        color: #737373; }
+        body footer .end_nav a:hover, html footer .end_nav a:hover {
+          color: #f56600;
+          text-decoration: underline; }
+    body footer .footer_help, html footer .footer_help {
+      width: 100%;
+      background: #f2f2f2; }
+      body footer .footer_help .container, html footer .footer_help .container {
+        width: 1200px;
+        height: 150px;
+        margin: 0 auto; }
+        body footer .footer_help .container .mod, html footer .footer_help .container .mod {
+          float: left;
+          width: 250px;
+          height: 150px;
+          padding-left: 45px;
+          border-left: 1px solid #d9d9d9; }
+          body footer .footer_help .container .mod h4, html footer .footer_help .container .mod h4 {
+            font-size: 14px;
+            margin-top: 0;
+            margin-bottom: 15px;
+            color: #010101; }
+          body footer .footer_help .container .mod a, html footer .footer_help .container .mod a {
+            color: #737373; }
+            body footer .footer_help .container .mod a:hover, html footer .footer_help .container .mod a:hover {
+              color: #f56600;
+              text-decoration: underline; }
+        body footer .footer_help .container .mod-a, html footer .footer_help .container .mod-a {
+          width: 180px;
+          padding-right: 120px;
+          padding-left: 0;
+          border-left: none; }
+          body footer .footer_help .container .mod-a li, html footer .footer_help .container .mod-a li {
+            display: inline-block;
+            width: 80px;
+            line-height: 24px; }
+        body footer .footer_help .container .mod-b li, html footer .footer_help .container .mod-b li {
+          line-height: 24px; }
+        body footer .footer_help .container .mod-c, html footer .footer_help .container .mod-c {
+          width: 174px;
+          padding-right: 80px; }
+          body footer .footer_help .container .mod-c li, html footer .footer_help .container .mod-c li {
+            display: inline-block;
+            width: 80px;
+            line-height: 20px; }
+        body footer .footer_help .container .mod-d, html footer .footer_help .container .mod-d {
+          padding-right: 0px; }
+          body footer .footer_help .container .mod-d p, html footer .footer_help .container .mod-d p {
+            line-height: 24px; }
+    body footer .auth, html footer .auth {
+      width: 1200px;
+      height: 54px;
+      padding-left: 140px;
+      margin: 30px auto 30px; }
+      body footer .auth a, html footer .auth a {
+        display: inline-block;
+        margin-right: 15px; }
+      body footer .auth img, html footer .auth img {
+        display: inline-block; }
+    body footer p, html footer p {
+      width: 1200px;
+      height: 17px;
+      margin: 0 auto 10px;
+      text-align: center; }
+      body footer p a, html footer p a {
+        display: inline-block;
+        color: #737373; }
+        body footer p a:hover, html footer p a:hover {
+          color: #f56600;
+          text-decoration: underline; }
+    body footer .footer_link, html footer .footer_link {
+      border-top: 1px solid #d9d9d9;
+      border-bottom: 1px solid #d9d9d9;
+      width: 1200px;
+      margin: 0 auto 10px;
+      padding: 25px 0; }
+      body footer .footer_link i, html footer .footer_link i {
+        display: block;
+        float: left;
+        font-weight: 700; }
+      body footer .footer_link div, html footer .footer_link div {
+        margin-left: 30px; }
+        body footer .footer_link div a, html footer .footer_link div a {
+          display: inline-block;
+          margin: 0 4px;
+          color: #737373; }
+          body footer .footer_link div a:hover, html footer .footer_link div a:hover {
+            color: #f56600;
+            text-decoration: underline; }
