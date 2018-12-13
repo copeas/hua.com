@@ -1465,3 +1465,35 @@ body, html {
         bottom: 23%; }
         body .quick_link .link_con .go_top a .ico_top, html .quick_link .link_con .go_top a .ico_top {
           background-position: 0 -252px; }
+        body .quick_link .link_con .go_top .hidden_left, html .quick_link .link_con .go_top .hidden_left {
+          visibility: hidden;
+          position: absolute;
+          top: 0;
+          left: -150px;
+          width: 120px;
+          height: 36px;
+          line-height: 36px;
+          background-color: #fff;
+          border-radius: 3px 0 0 3px;
+          box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+          transition: 0.4s; }
+          body .quick_link .link_con .go_top .hidden_left a, html .quick_link .link_con .go_top .hidden_left a {
+            display: inline-block;
+            padding-left: 30px;
+            text-align: center; }
+            body .quick_link .link_con .go_top .hidden_left a:hover, html .quick_link .link_con .go_top .hidden_left a:hover {
+              color: #010101;
+              background: none; }
+          body .quick_link .link_con .go_top .hidden_left span, html .quick_link .link_con .go_top .hidden_left span {
+            position: absolute;
+            top: 12px;
+            right: -10px;
+            display: block;
+            width: 0px;
+            height: 0px;
+            border-width: 5px;
+            border-style: solid;
+            border-color: transparent transparent transparent #fff; }
+        body .quick_link .link_con .go_top:hover .hidden_left, html .quick_link .link_con .go_top:hover .hidden_left {
+          visibility: visible;
+          left: -120px; }

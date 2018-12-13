@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>会员登陆-花礼网</title>
+
+    <link rel="stylesheet" href="css/commn.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <!-- top_nav -->
+    <div class="top-nav">
+        <div class="container">
+            <ul class="left clearfix">
+                <li>
+                    <a href="javascript:void(0)">
+                        <span class="ico ico-star"></span>
+                        收藏鲜花网(hua.com)
+                    </a>
+                </li>
+                <li>
+                        
+                    <a href="javascript:void(0)">
+                        <span class="ico ico-weixin"></span>
+                        关注微信
+                    </a>
+                    <div class="hide-weixin ">
+                        <img src="http://img02.hua.com/pc/pimg/wechat_qrcode.jpg" alt="" srcset="">
+                        <p>
+                            扫码关注
+                            <br>
+                            回复“礼物”更多惊喜
+                        </p>
+                    </div>
+                </li>
+                <li>
+                        
+                    <a href="javascript:void(0)">
+                        <span class="ico ico-mobile"></span>
+                        花礼网app
+                        
+                    </a>
+                    <div class="hide-weixin ">
+                        <img src="http://img02.hua.com/pc/pimg/app_qrcode.jpg" alt="" srcset="">
+                        <p>
+                            新人专享100元APP礼包
+                        </p>
+                    </div>
+                </li>
+            </ul>
+            <ul class="right">
+                <li>
+                    <a href="javascript:void(0)">你好，请登录</a>
+                    <a href="javascript:void(0)">注册</a>
+                </li>
+                <li class="bar">|</li>
+                <li>
+                    <a href="javascript:void(0)">订单查询</a>
+                </li>
+                <li class="bar">|</li>
+                <li>
+                    <a href="javascript:void(0)" class="down">我的花礼</a>
+                </li>
+                <li class="bar">|</li>
+                <li class="chen">
+                    <a href="javascript:void(0)" class="down">客服服务
+                    <i></i>        
+                    </a>
+                    <div class="list">
+                        <a href="javascript:void(0)">在线付款</a>
+                        <a href="javascript:void(0)">帮助中心</a>
+                        <a href="javascript:void(0)">售后服务</a>
+                        <a href="javascript:void(0)">配送范围</a>
+                        <a href="javascript:void(0)">留言反馈</a>
+                    </div>
+                </li>
+                <li class="bar">|</li>
+                <li class="chen">
+                    <a href="javascript:void(0)" class="down">
+                        <span class="ico ico-car"></span>
+                        购物车
+                        <span class="glyphicon ">(0)</span>
+                        <i></i>   
+                    </a>
+                    <div class="empty">
+                        <p>您的购物车中没有商品，先去选购吧！</p>
+                    </div>
+                </li>
+                <li class="bar">|</li>
+                <li>
+                    中国鲜花礼品网:中国鲜花网领先品牌
+                </li>
+            </ul>
+        </div>
+    </div>
+  <!-- top_nav -->
+  <!-- header -->
+    <header>
+        <div class="logo">
+            <a href="javascript:void(0)"></a>
+        </div>
+        <div class="center">
+             <dt>
+                 <input name="keyword" type="text" class="form-control" placeholder="商品关键词"><button id="btn_search">搜索</button>
+             </dt>   
+             <dd>
+                 <!-- <a href="javascript:void(0)">红玫瑰</a>
+                 <span>|</span>
+                 <a href="javascript:void(0)">永生花</a>
+                 <span>|</span>
+                 <a href="javascript:void(0)">生日鲜花</a>
+                 <span>|</span>
+                 <a href="javascript:void(0)">礼品卡</a> -->
+             </dd>
+        </div>
+        <div class="right">
+ 
+             <dd>
+                 <span class="ico ico-phone"></span>400-889-8188
+             </dd>
+             <a href="javascript:void(0)">
+                 <span class="ico ico-headset"></span>
+                 在线客服
+             </a>
+ 
+ 
+        </div>
+    </header>
+ <!-- header -->
+
+<div class="login_con">
+    <div class="login_container">
+            <div class="input_list">
+                <dl>
+                    <dd class="clearfix">
+                        <a class=" active" href="javascript:void(0)">登陆</a>
+                        <a href="javascript:void(0)">注册</a>
+                    </dd>
+                    <dt class="login_way clearfix">
+                        <div class="change_loginway">
+                            <a href="javascript:void(0)">请使用手机验证码登陆</a>
+                        </div>
+                       <div class="user_list clearfix">
+                            
+                            <div class="ico">
+                                    <span class="ico_usr"></span>
+                            </div>
+                            <input type="text" id="login_username" placeholder="E-mail地址/手机号" nodeType="empty">
+                       </div> 
+
+                       <div class="password_list clearfix">
+                            <div class="ico">
+                                <span class="ico_psd"></span>
+                            </div>
+                            <input type="password" id="login_password" placeholder="用户密码">
+                       </div>
+
+                       <div class="forgot">
+                           <a href="javascript:void(0)">
+                               忘记密码？
+                           </a>
+                       </div>
+
+                       <div class="btn_login clearfix">
+                        <button id="login_button">
+                            登&nbsp;&nbsp;录
+                        </button>
+                       </div>
+                       <div class="other_way">
+                        <a href="javascript:void(0)">微信</a> 
+                        <i>|</i> 
+                        <a href="javascript:void(0)">QQ</a>
+                        <i>|</i>
+                        <a href="javascript:void(0)">支付宝</a>
+                       </div>
+                    </dt> 
+                    <!-- <dt class="register_way clearfix">
+                            <div class="change_loginway">
+                                <a href="javascript:void(0)">请使用手机号码注册</a>
+                            </div>
+                           <div class="register_list clearfix">
+                                
+                              
+                                <input type="email" id="register_username" placeholder="请填写您的E-mail地址" >
+                           </div> 
+    
+                           <div class="password_list clearfix">
+                                
+                                <input type="password" id="register_password" placeholder="密码">
+                           </div>
+                           <div class="password_list clearfix">
+                                
+                                <input type="password" id="twice_password" placeholder="再次输入密码">
+                           </div>
+                          
+    
+                           <div class="btn_register clearfix">
+                                <button id="register_button">
+                                    立即注册
+                                </button>
+                           </div>
+                          
+                        </dt>  -->
+                </dl>
+            </div>
+    </div>
+</div>
+
+
+
+<footer>
+
+    <div class="end_nav">
+    
+            <a href="javascript:void(0)">首页</a><i>|</i>
+            <a href="javascript:void(0)">关于我们</a><i>|</i>
+            <a href="javascript:void(0)">媒体报道</a><i>|</i>
+            <a href="javascript:void(0)">联系方式</a><i>|</i>
+            <a href="javascript:void(0)">企业团购</a><i>|</i>
+            <a href="javascript:void(0)">花店入驻</a><i>|</i>
+            <a href="javascript:void(0)">友情链接</a><i>|</i>
+            <a href="javascript:void(0)">在线补款</a><i>|</i>
+            <a href="javascript:void(0)">为什么选择中国鲜花礼品网</a>
+        
+    </div>
+    <div class="auth">
+            
+        <a href="https://ss.knet.cn/verifyseal.dll?sn=e15041744030058395oqbo000000&amp;ct=df&amp;a=1&amp;pa=0.8817607406526804" target="_blank"><img style="height:40px;" src="//img02.hua.com/pc/assets/img/cxwz.png"></a>
+        <a href="https://search.szfw.org/cert/l/CX20130306002238002312" target="_blank"><img src="//img02.hua.com/pc/assets/img/cxwz.gif" height="40" width="112"></a>
+        <a href="http://www.anquan.org/authenticate/cert/?site=www.hua.com&amp;at=realname" rel="nofollow" target="_blank"><img src="//img02.hua.com/pc/assets/img/smyz.gif" height="40" width="106"></a>
+        <img src="//img02.hua.com/pc/assets/img/slogan.png" height="50" width="212">
+        <a href="/member/payment/fillbyalipay?order_no=&amp;total_fee=" rel="nofollow" target="_blank"><img src="//img02.hua.com/pc/assets/img/zfb.gif" height="49" width="96"></a>
+        <a href="/profile/news_20111110.htm" target="_blank"><img src="//img02.hua.com/pc/assets/img/100.jpg" height="49" width="150"></a>
+        <a href="/profile/ICP.htm" rel="nofollow" target="_blank"><img src="//img02.hua.com/pc/assets/img/bico1.jpg" alt="ICP" height="46" width="35"></a>
+        
+        <a href="http://szcert.ebs.org.cn/fab6de6a-ff80-4e63-89e4-cd531170c256" rel="nofollow" target="_blank"><img alt="工商网监" src="//img02.hua.com/pc/assets/img/bico4.jpg" height="46" width="35"></a>
+        <a href="http://www.sznet110.gov.cn/netalarm/index.jsp" rel="nofollow" target="_blank"><img src="//img02.hua.com/pc/assets/img/bico3.jpg" alt="网安" height="46" width="35"></a>
+                
+</div>
+<p>
+    <a href="/profile/ChinaFlowerAssociation.htm" rel="nofollow" target="_blank" title="中国花卉协会会员">中国花卉协会会员</a>
+    <a href="/profile/chinaECA.htm" rel="nofollow" target="_blank">中国电子商务协会会员</a> ICP经营许可证：
+    <a href="/profile/ICP.htm" rel="nofollow" target="_blank">粤B2-20050744</a> <b>|</b>
+    <a href="http://www.miibeian.gov.cn" rel="nofollow" target="_blank">粤ICP备09171662号</a> <span class="ico beian"></span>粤公网安备44030502000373号 Copyright © 2005-2018
+</p>
+<p>
+    花礼网 （中国鲜花礼品网）
+    <a href="/">www.hua.com</a><span> 深圳市百易信息技术有限公司</span> 中国鲜花网领先品牌，鲜花速递专家！
+</p>
+</footer>
+<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+<script  src="scripts/login.js">
+</script>
+</body>
+</html>

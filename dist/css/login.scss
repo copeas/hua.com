@@ -1,0 +1,237 @@
+@import  "reset.scss";
+
+body{
+    .login_con{
+        width: 100%;
+        height: 488px;
+        background: url(https://img02.hua.com/pc/assets/img/login_bg.jpg) 50% 0 no-repeat;
+        .login_container{
+            width: 990px;
+            margin: 0 auto;
+            height: 488px;
+            .input_list{
+                margin-top:40px; 
+                width: 380px;
+                height: 368px;
+                float: right;
+                padding: 20px;;
+                background-color: #fff;
+                a:hover{
+                    color: #f56600;
+                }
+                dl{
+                    dd{
+                        margin-bottom: 15px;
+                        padding: 0;
+                        
+                        border-bottom: 2px solid #d9d9d9;
+
+                        // font-size: 14px;
+   
+                        //
+
+                        a{
+                            display: block;
+                            float: left;;
+                            width: 32px;
+                            height: 22px;
+                            font-size: 16px;    
+                            color: #737373;
+                            margin-bottom: -2px;
+                            padding: 10px 35px;
+                            border-bottom: 2px solid #d9d9d9;
+                        }
+
+                        a.active{
+                            color: #ff6a00;
+                            border-bottom-color: #ff6a00;
+                        }
+                    }
+                    // .chang_loginway{
+                    //     width: 100%;
+                    //     height: 17px;
+                    //     a{
+                    //         display: block;
+                    //         float: right;
+                    //         width: 120px;
+                    //         height: 17px;
+                    //         margin-right: 38px;
+                    //         color: #ff6a00;
+                    //         font-size: 12px;
+                    //     }
+                    // }
+                    .login_way{
+                        // display: none;
+                        .change_loginway{
+                            width: 100%;
+                            height: 17px;
+                            a{
+                                display: block;
+                                float: right;
+                                width: 120px;
+                                height: 17px;
+                                margin-right: 38px;
+                                color: #ff6a00;
+                                font-size: 12px;
+                            }
+                        }
+                        .user_list{
+                            margin: 15px 38px 0;
+                            .ico{
+                                float: left;
+                                padding: 10px;
+                                width: 16px;
+                                height: 18px;
+                                background-color: #d9d9d9;
+                                border: 1px solid #d9d9d9;
+                                span{
+                                    display: block;
+                                    width: 16px;
+                                    height: 16px;
+                                    background: url(https://img02.hua.com/pc/assets/img/common_z.png) no-repeat;
+                                    background-position: -338px -318px;
+                                }
+                            }
+                            #login_username{
+                                float: left;
+                                display: block;
+                                width: 244px;
+                                height: 18px;
+                                padding: 10px;
+                                border: 1px solid #d2d2d2;
+                            }
+                        }
+                        .password_list{
+                            margin: 15px 38px 0;
+                            .ico{
+                                float: left;
+                                padding: 10px;
+                                width: 16px;
+                                height: 18px;
+                                background-color: #d9d9d9;
+                                border: 1px solid #d9d9d9;
+                                span{
+                                    display: block;
+                                    width: 16px;
+                                    height: 16px;
+                                    background: url(https://img02.hua.com/pc/assets/img/common_z.png) no-repeat;
+                                    background-position:-312px -318px;
+                                }
+                            }
+                            #login_password{
+                                float: left;
+                                display: block;
+                                width: 244px;
+                                height: 18px;
+                                padding: 10px;
+                                border: 1px solid #d2d2d2;
+                            }
+                        }
+                        .forgot{
+                            height: 17px;
+                            width: 100%;
+                            a{
+                                display: block;
+                                float: right;
+                                width: 98px;
+                                height: 17px;
+                                // margin-right: 38px;
+                                color: #ff6a00;
+                                font-size: 12px; 
+                            }
+                        }
+                        .btn_login{
+                            margin: 22px  0 0 38px ;
+                            width: 100%;
+                            #login_button{
+                                display: block;
+                                height: 47px;
+                                width: 301px;
+                                color: #ffffff;
+                                border-color: #f56600;
+                                background-color: #f56600;
+                                padding: 10px 16px;
+                                font-size: 18px;
+                                border-radius: 4px; 
+                            }
+                        }
+
+                        .other_way{
+                            margin: 22px  0 0 38px ;
+                            a{
+                                display: inline-block;
+                                color: #737373;
+                                &:hover{
+                                    color: #f56600;
+                                    text-decoration: underline;
+                                }
+                            }
+                            i{
+                                display: inline-block;
+                                padding: 0 5px;
+                            }
+                        }
+                    }
+
+                    .register_way{
+                        .change_loginway{
+                            width: 100%;
+                            height: 17px;
+                            a{
+                                display: block;
+                                float: right;
+                                width: 120px;
+                                height: 17px;
+                                margin-right: 38px;
+                                color: #ff6a00;
+                                font-size: 12px;
+                            }
+                        }
+
+                        .register_list{
+                            margin: 15px 38px 0;
+                            
+                            #register_username{
+                                float: left;
+                                display: block;
+                                width: 282px;
+                                height: 18px;
+                                padding: 10px;
+                                border: 1px solid #d2d2d2;
+                            }
+                        }
+
+                        .password_list{
+                            margin: 15px 38px 0;
+                           
+                            #register_password,#twice_password{
+                                float: left;
+                                display: block;
+                                width: 282px;
+                                height: 18px;
+                                padding: 10px;
+                                border: 1px solid #d2d2d2;
+                            }
+                        }
+
+                        .btn_register{
+                            margin: 22px  0 0 38px ;
+                            width: 100%;
+                            #register_button{
+                                display: block;
+                                height: 47px;
+                                width: 301px;
+                                color: #ffffff;
+                                border-color: #f56600;
+                                background-color: #f56600;
+                                padding: 10px 16px;
+                                font-size: 18px;
+                                border-radius: 4px; 
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

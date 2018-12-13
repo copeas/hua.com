@@ -5,14 +5,16 @@
 const gulp = require("gulp");
 // gulp 服务器插件
 const connect = require("gulp-connect");
+const proxy = require("http-proxy-middleware");
 // // gulp 合并插件
+
 var concat = require("gulp-concat")
 // // gulp js压缩插件
-var uglify=require("gulp-uglify");
+// var uglify=require("gulp-uglify");
 // // babel 插件  编译插件
 var babel = require("gulp-babel");
 // // gulp-clean-csc  css压缩插件
-var cleanCss = require("gulp-clean-css");
+// var cleanCss = require("gulp-clean-css");
 // // sass编译插件
 // var sass = require("gulp-sass-china")
 var sass = require("gulp-sass");
@@ -23,12 +25,16 @@ gulp.task("connect",function(){
         port:85,
         root:"dist/",
         livereload:true,
-        middleware:function(connect,opt){ //中间件选项
+        middleware:function(){ //中间件选项
             // console.log(opt)
-            var Proxy=require("gulp-connect-proxy");
-            opt.route="/proxy";
-            var proxy =new Proxy(opt);
-            return [proxy]
+            return[
+                proxy("/api",{
+                    target:"http://localhost:3000",
+                    pathRewrite:{
+                        '^/api' : '/',  //rewrite path
+                    }
+                })
+            ]
         }
     })
 })

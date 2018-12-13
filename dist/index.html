@@ -81,14 +81,14 @@
                     </div>
                 </li>
                 <li class="bar">|</li>
-                <li  class="chen">
+                <li  class="chen ShoppingCart">
                     <a href="javascript:void(0)" class="down">
                         <span class="ico ico-car"></span>
                         购物车
                         <span class="glyphicon ">(0)</span>
                         <i></i>   
                     </a>
-                    <div class="empty">
+                    <div class="empty cart_empty">
                         <p>您的购物车中没有商品，先去选购吧！</p>
                     </div>
                 </li>
@@ -1301,12 +1301,18 @@
                         <a href="javascript:void(0)">
                             <i class="ico_top"></i>
                         </a>
+                        <dd class="hidden_left">
+                            <a href="javascript:void(0)">
+                               回到顶部
+                            </a>
+                            <span></span>
+                        </dd>
                     </li>
         </div>
     </div>
     <!-- 快速链接 -->
     <script type="text/javascript" src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>  
-
+    <!-- <script type="text/javascript" src="./renderCart.js"></script> -->
     <script  type="module" src="scripts/index.js" >
         //  $.ajax("/mogu")
         // .then((res)=>{
@@ -1326,6 +1332,6 @@
         // // console.log(banner);
         // banner.init();  
     </script>
-    
+   
 </body>
 </html>
