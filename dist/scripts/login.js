@@ -9,8 +9,8 @@ function Login(){
             data:`username=${oUser.val()}&password=${oPwd.val()}`
         })
         .then(function(res){
-            // console.log(res);
-           if(res){
+            console.log(res);
+           if(res.statuCode === 1){
             location.href="index.html";
 
             var prevLink = document.referrer;
@@ -28,6 +28,8 @@ function Login(){
                 }
 
             }
+           }else{
+               alert("账号或密码不正确")
            }
         })
     })

@@ -42,7 +42,7 @@ $.extend(Magnifier.prototype,{
         var offsetX = e.offsetX;
         var offsetY = e.offsetY;
         var nleft = offsetX - 45;
-        var ntop = offsetY - 68;
+        var ntop = offsetY - 50;
         // 边界检测
         //最小值
         nleft = nleft < 0 ? 0 : nleft;
